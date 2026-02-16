@@ -11,7 +11,7 @@ const reviews = [
     },
     {
         name: "Letícia Lopes",
-        text: "Depois de passar por 2 dermatos, resolvi procurar a podologia e, com muita dedicação, paciência e persistência, a Flavia resolveu meu problema.",
+        text: "Depois de passar por 2 dermatos, resolvi procurar a podologia e, com muita dedicação, paciência e persistência, a profissional resolveu meu problema.",
         stars: 5
     },
     {
@@ -26,17 +26,17 @@ const reviews = [
     },
     {
         name: "Amanda Beddingfield",
-        text: "Recomendo a Lucimere ela fez um excelente trabalho nas minhas unhas e ainda explicou todo o processo com muita clareza. Voltarei em breve",
+        text: "Recomendo a profissional ela fez um excelente trabalho nas minhas unhas e ainda explicou todo o processo com muita clareza. Voltarei em breve",
         stars: 5
     },
     {
         name: "Sheila Aragão",
-        text: "Ambiente super agradável e ótimo atendimento, desde a recepção (Afonso) até a podóloga (Eula). Amei, voltarei mais vezes",
+        text: "Ambiente super agradável e ótimo atendimento, desde a recepção até a podóloga. Amei, voltarei mais vezes",
         stars: 5
     },
     {
         name: "Jorge Rocha",
-        text: "Muito bem recebido desde a recepção até o atendimento com a profissional Eula, ambiente agradável e acolhedor, conseguiram aliar conforto com qualidade nos procedimentos. Recomendo!!!",
+        text: "Muito bem recebido desde a recepção até o atendimento com a profissional, ambiente agradável e acolhedor, conseguiram aliar conforto com qualidade nos procedimentos. Recomendo!!!",
         stars: 5
     },
     {
@@ -56,7 +56,7 @@ const reviews = [
     },
     {
         name: "Alex Paulo",
-        text: "O atendimento foi muito bom e as Podólogas Flávia e Regina foram muito atenciosas e profissionais. Parabéns e que Deus continue abençoando vocês.",
+        text: "O atendimento foi muito bom e as Podólogas foram muito atenciosas e profissionais. Parabéns e que Deus continue abençoando vocês.",
         stars: 5
     },
     {
