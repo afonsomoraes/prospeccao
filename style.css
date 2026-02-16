@@ -722,3 +722,131 @@ header {
     opacity: 1;
     visibility: visible;
 }
+
+/* --- Carousel Styles --- */
+.carousel-container {
+    position: relative;
+    height: 300px;
+    /* Ajuste conforme necessário */
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    /* Centralizar verticalmente setas se precisar */
+    align-items: center;
+}
+
+.carousel-track-container {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 20px 0;
+    /* Espaço para sombra */
+}
+
+.carousel-track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 500ms ease-in-out;
+}
+
+.carousel-slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 90%;
+    /* Responsivo mobile */
+}
+
+/* Override existing testimonial-card styles if conflicting */
+#depoimentos .testimonial-card {
+    height: auto;
+    /* Deixa crescer com o texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    box-shadow: var(--shadow-sm);
+    transition: background 0.3s;
+}
+
+.carousel-btn:hover {
+    background: var(--hover-color);
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.carousel-dot {
+    border: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    cursor: pointer;
+}
+
+.carousel-dot.current-slide {
+    background: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+    .carousel-container {
+        height: 600px;
+        /* Mais altura para texto quebrando em mobile */
+    }
+
+    .carousel-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+    }
+}
