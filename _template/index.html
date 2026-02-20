@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome do Cliente | Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Tailwind CSS para prototipagem rápida -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold text-blue-600">LogoCliente</div>
+            <a href="#contato"
+                class="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-full font-medium transition">Falar
+                no WhatsApp</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="py-20 bg-gradient-to-br from-blue-50 to-white">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">Solução Principal para <span
+                        class="text-blue-600">O Problema do Cliente</span></h1>
+                <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">Uma breve descrição de como o produto ou serviço
+                    vai transformar a vida ou o negócio do cliente que você está prospectando.</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <a href="#contato"
+                        class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg text-lg font-bold shadow-lg transition">Quero
+                        saber mais</a>
+                    <a href="#sobre"
+                        class="bg-white border border-gray-300 hover:bg-gray-50 px-8 py-3 rounded-lg text-lg font-bold transition">Ver
+                        detalhes</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefícios -->
+        <section id="sobre" class="py-20">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Por que escolher [Nome da Empresa]?</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                        <div
+                            class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4">
+                            ⭐</div>
+                        <h3 class="text-xl font-bold mb-2">Diferencial 1</h3>
+                        <p class="text-gray-600">Explique por que este ponto é importante e como ele ajuda o cliente.
+                        </p>
+                    </div>
+                    <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                        <div
+                            class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4">
+                            🚀</div>
+                        <h3 class="text-xl font-bold mb-2">Diferencial 2</h3>
+                        <p class="text-gray-600">Foque em agilidade, tecnologia ou qualquer outro ponto forte.</p>
+                    </div>
+                    <div class="p-6 bg-white rounded-xl shadow-sm border border-gray-100">
+                        <div
+                            class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-4">
+                            🛡️</div>
+                        <h3 class="text-xl font-bold mb-2">Diferencial 3</h3>
+                        <p class="text-gray-600">Segurança, autoridade ou confiança são ótimos argumentos aqui.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-4">&copy; 2024 [Nome do Cliente]. Todos os direitos reservados.</p>
+            <p class="text-gray-500 text-sm">Desenvolvido por Concept Marketing Digital</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
