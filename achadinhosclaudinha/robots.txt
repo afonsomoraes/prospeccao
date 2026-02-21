@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://lp.conceptmarketingdigital.com.br/achadinhosclaudinha/sitemap.xml
