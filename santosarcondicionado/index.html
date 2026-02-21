@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santos Ar Condicionado | Instalação e Manutenção em Campinas</title>
+
+    <!-- Meta Tags SEO -->
+    <meta name="description"
+        content="Especialistas em Instalação, Manutenção e PMOC de Ar Condicionado em Campinas e região. Atendimento rápido e técnico para residências e empresas.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#0F172A', // Slate-900
+                            red: '#dc2626',  // Red-600
+                            cyan: '#0ea5e9', // Sky-500
+                            bg: '#f8fafc',   // Slate-50
+                            text: '#334155', // Slate-700
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Santos Ar Condicionado",
+      "image": "https://santosarcondicionado.com.br/assets/images/logo.png",
+      "@id": "",
+      "url": "https://santosarcondicionado.com.br",
+      "telephone": "+5519992779938",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Exemplo, 123",
+        "addressLocality": "Campinas",
+        "addressRegion": "SP",
+        "postalCode": "13049-111",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -22.9099,
+        "longitude": -47.0626
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "11:30"
+        }
+      ],
+      "priceRange": "$$"
+    }
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-TDKTS5WM');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body class="bg-brand-bg text-brand-text antialiased">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDKTS5WM" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Header Sticky -->
+    <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm border-b border-gray-100">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="#" class="text-2xl font-bold tracking-tighter text-brand-blue flex items-center gap-2">
+                <span class="sr-only">Santos Ar Condicionado</span>
+                <!-- Logo Placeholder / Icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-8 h-8 text-brand-cyan">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+                </svg>
+                <span>Santos<span class="text-brand-red">Ar</span></span>
+            </a>
+
+            <!-- Desktop Nav (Hidden on Mobile) -->
+            <nav class="hidden md:flex gap-6 text-sm font-medium text-slate-600">
+                <a href="#servicos" class="hover:text-brand-blue transition-colors">Serviços</a>
+                <a href="#diferenciais" class="hover:text-brand-blue transition-colors">Por que nós</a>
+                <a href="#faq" class="hover:text-brand-blue transition-colors">Dúvidas</a>
+            </nav>
+
+            <!-- CTA Button -->
+            <a href="https://wa.me/5519992779938?text=Ol%C3%A1%2C%20preciso%20de%20um%20or%C3%A7amento%20para%20ar%20condicionado."
+                target="_blank"
+                class="hidden sm:inline-flex items-center gap-2 bg-brand-red hover:bg-red-700 text-white px-5 py-2.5 rounded-full font-semibold transition-all shadow-lg shadow-red-500/20 text-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+                    <path
+                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                </svg>
+                WhatsApp Rápido
+            </a>
+
+            <!-- Mobile Menu Button (Hamburger) -->
+            <button class="md:hidden text-brand-blue p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-8 h-8">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Container (Hidden by default) -->
+    <div id="mobile-menu" class="hidden fixed inset-0 z-40 bg-white/98 pt-20 px-6 md:hidden">
+        <nav class="flex flex-col gap-6 text-xl font-medium text-slate-800 text-center">
+            <a href="#servicos" class="py-2 border-b border-gray-100">Serviços</a>
+            <a href="#diferenciais" class="py-2 border-b border-gray-100">Por que nós</a>
+            <a href="#faq" class="py-2 border-b border-gray-100">Dúvidas</a>
+            <a href="https://wa.me/5519992779938?text=Ol%C3%A1%2C%20preciso%20de%20um%20or%C3%A7amento." target="_blank"
+                class="mt-4 bg-brand-red text-white py-3 rounded-xl font-bold">
+                Solicitar Orçamento
+            </a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative pt-24 pb-16 md:pt-32 md:pb-24 overflow-hidden bg-brand-blue">
+        <!-- Background Overlay & Image -->
+        <div class="absolute inset-0 z-0 opacity-20">
+            <!-- Placeholder for Hero Image - using a pattern or gradient if no image yet, but assuming tech context -->
+            <div
+                class="w-full h-full bg-[url('https://images.unsplash.com/photo-1621905251189-fc01530c6c1b?q=80&w=2071&auto=format&fit=crop')] bg-cover bg-center">
+            </div>
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-b from-brand-blue/90 to-brand-blue/95 z-0"></div>
+
+        <div class="container mx-auto px-4 relative z-10 text-center md:text-left">
+            <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+
+                <!-- Text Content -->
+                <div class="md:w-1/2 flex flex-col items-center md:items-start space-y-6">
+                    <div
+                        class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-cyan/10 border border-brand-cyan/20 text-brand-cyan text-xs font-semibold uppercase tracking-wider">
+                        <span class="w-2 h-2 rounded-full bg-brand-cyan animate-pulse"></span>
+                        Atendimento em Campinas e Região
+                    </div>
+
+                    <h1 class="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+                        Seu Ar Condicionado <span class="text-brand-cyan">Parou?</span><br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-cyan to-white">Resolvemos
+                            em 24h.</span>
+                    </h1>
+
+                    <p class="text-slate-300 text-lg md:text-xl max-w-lg leading-relaxed">
+                        Especialistas em instalação, manutenção e contratos PMOC. Garantia de conforto e conformidade
+                        técnica para sua casa ou empresa.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+                        <a href="https://wa.me/5519992779938?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20visita%20t%C3%A9cnica."
+                            target="_blank"
+                            class="flex items-center justify-center gap-2 bg-brand-red hover:bg-red-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-xl shadow-red-900/20 transform hover:-translate-y-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                            </svg>
+                            Agendar Visita Agora
+                        </a>
+                        <a href="#servicos"
+                            class="flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all backdrop-blur-sm border border-white/10">
+                            Ver Serviços
+                        </a>
+                    </div>
+
+                    <!-- Trust Indicators -->
+                    <div class="pt-4 flex items-center justify-center md:justify-start gap-4 text-slate-400 text-sm">
+                        <span class="flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-brand-cyan" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Técnicos Certificados
+                        </span>
+                        <span class="flex items-center gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-brand-cyan" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Orçamento Transparente
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Hero Image / Visual -->
+                <div class="md:w-1/2 relative hidden md:block">
+                    <!-- Decorative Elements -->
+                    <div class="absolute -top-10 -right-10 w-64 h-64 bg-brand-cyan/20 rounded-full blur-3xl"></div>
+                    <div class="absolute -bottom-10 -left-10 w-64 h-64 bg-brand-red/10 rounded-full blur-3xl"></div>
+
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10">
+                        <img src="https://images.unsplash.com/photo-1581094794329-cd1096d7a43f?q=80&w=2072&auto=format&fit=crop"
+                            alt="Técnico verificando ar condicionado"
+                            class="w-full h-auto object-cover transform hover:scale-105 transition-duration-700 transition-transform">
+
+                        <!-- Floating Card -->
+                        <div
+                            class="absolute bottom-6 left-6 bg-white/95 backdrop-blur-md p-4 rounded-xl shadow-lg max-w-xs border border-white/20">
+                            <div class="flex items-center gap-3">
+                                <div class="bg-green-100 p-2 rounded-full text-green-600">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-slate-800 text-sm">Disponível Agora</p>
+                                    <p class="text-xs text-slate-500">Atendendo chamados em Campinas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-blue mb-4">Nossas Soluções em Climatização</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto">Atendemos desde pequenos reparos residenciais até grandes
+                    projetos corporativos com excelência técnica.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1: Instalação -->
+                <div
+                    class="group p-8 rounded-2xl border border-gray-100 bg-white shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div
+                        class="w-14 h-14 rounded-full bg-blue-50 flex items-center justify-center mb-6 group-hover:bg-brand-cyan group-hover:text-white transition-colors text-brand-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-blue mb-3">Instalação Split</h3>
+                    <p class="text-slate-600 mb-6">Instalação técnica seguindo rigorosamente as normas do fabricante.
+                        Preservamos a garantia do seu aparelho e garantimos acabamento impecável.</p>
+                    <ul class="space-y-2 mb-6 text-sm text-slate-500">
+                        <li class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Tubulação de cobre
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Vácuo e testes de pressão
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/5519992779938?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento%20de%20instala%C3%A7%C3%A3o."
+                        class="text-brand-red font-semibold hover:gap-3 gap-2 flex items-center transition-all">
+                        Pedir Orçamento <span aria-hidden="true">&rarr;</span>
+                    </a>
+                </div>
+
+                <!-- Card 2: Manutenção -->
+                <div
+                    class="group p-8 rounded-2xl border border-gray-100 bg-white shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div
+                        class="w-14 h-14 rounded-full bg-blue-50 flex items-center justify-center mb-6 group-hover:bg-brand-cyan group-hover:text-white transition-colors text-brand-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-blue mb-3">Limpeza e Manutenção</h3>
+                    <p class="text-slate-600 mb-6">Seu ar parou de gelar ou está com cheiro ruim? Realizamos limpeza
+                        química profunda e reparos técnicos para devolver a eficiência e eliminar fungos.</p>
+                    <ul class="space-y-2 mb-6 text-sm text-slate-500">
+                        <li class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Eliminação de ácaros/fungos
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Recarga de Gás
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/5519992779938?text=Ol%C3%A1%2C%20preciso%20de%20manuten%C3%A7%C3%A3o%20no%20ar."
+                        class="text-brand-red font-semibold hover:gap-3 gap-2 flex items-center transition-all">
+                        Agendar Manutenção <span aria-hidden="true">&rarr;</span>
+                    </a>
+                </div>
+
+                <!-- Card 3: PMOC (Destaque) -->
+                <div
+                    class="group p-8 rounded-2xl border-2 border-brand-cyan/20 bg-gradient-to-br from-white to-sky-50 shadow-sm hover:shadow-xl transition-all duration-300 transform md:-translate-y-2">
+                    <div
+                        class="absolute top-0 right-0 bg-brand-cyan text-white text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-lg">
+                        B2B / EMPRESAS</div>
+                    <div
+                        class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-6 group-hover:bg-brand-blue group-hover:text-white transition-colors text-brand-cyan">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-blue mb-3">Contratos PMOC</h3>
+                    <p class="text-slate-600 mb-6">Evite multas e proteja a saúde da sua equipe. Emitimos laudo técnico,
+                        ART e realizamos o Plano de Manutenção (PMOC) exigido pela lei 13.589/18.</p>
+                    <ul class="space-y-2 mb-6 text-sm text-slate-500">
+                        <li class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-brand-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            Laudo e ART inclusos
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <svg class="w-4 h-4 text-brand-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            Visitas mensais programadas
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/5519992779938?text=Ol%C3%A1%2C%20queria%20saber%20mais%20sobre%20o%20PMOC."
+                        class="w-full block text-center bg-brand-blue hover:bg-slate-800 text-white py-3 rounded-lg font-semibold transition-all">
+                        Cotar Contrato
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais / Trust Bar -->
+    <section id="diferenciais" class="py-12 bg-slate-50 border-t border-slate-200">
+        <div class="container mx-auto px-4">
+            <div
+                class="flex flex-wrap justify-center md:justify-between items-center gap-8 md:gap-4 text-center md:text-left">
+                <!-- Item 1 -->
+                <div class="flex flex-col md:flex-row items-center gap-4 max-w-[250px]">
+                    <div class="p-3 bg-white rounded-full shadow-sm text-brand-red">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-900">Atendimento Rápido</h4>
+                        <p class="text-sm text-gray-500">Agilidade no diagnóstico e visita.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="flex flex-col md:flex-row items-center gap-4 max-w-[250px]">
+                    <div class="p-3 bg-white rounded-full shadow-sm text-brand-cyan">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-900">Garantia Técnica</h4>
+                        <p class="text-sm text-gray-500">Serviços com nota e garantia.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="flex flex-col md:flex-row items-center gap-4 max-w-[250px]">
+                    <div class="p-3 bg-white rounded-full shadow-sm text-brand-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-gray-900">Foco no Cliente</h4>
+                        <p class="text-sm text-gray-500">Atendimento honesto e humanizado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 bg-white">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-brand-blue mb-4">Perguntas Frequentes</h2>
+                <p class="text-slate-600">Tire suas dúvidas sobre nossos serviços de climatização.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button
+                        class="faq-btn w-full text-left px-6 py-4 bg-gray-50 hover:bg-gray-100 flex justify-between items-center font-semibold text-brand-blue transition-colors">
+                        Atendem quais cidades além de Campinas?
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5 transform transition-transform duration-300" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="faq-content hidden px-6 py-4 text-slate-600 bg-white">
+                        <p>Atendemos Campinas e toda a RMC (Região Metropolitana), num raio de até 100km. Isso inclui
+                            Valinhos, Vinhedo, Paulínia, Sumaré, Hortolândia, Indaiatuba e Jaguariúna.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button
+                        class="faq-btn w-full text-left px-6 py-4 bg-gray-50 hover:bg-gray-100 flex justify-between items-center font-semibold text-brand-blue transition-colors">
+                        Vocês emitem Nota Fiscal e Laudo Técnico?
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5 transform transition-transform duration-300" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="faq-content hidden px-6 py-4 text-slate-600 bg-white">
+                        <p>Sim! Emitimos Nota Fiscal para todos os serviços e fornecemos Laudo Técnico / ART para
+                            contratos de manutenção e PMOC, garantindo conformidade com a lei 13.589/18.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button
+                        class="faq-btn w-full text-left px-6 py-4 bg-gray-50 hover:bg-gray-100 flex justify-between items-center font-semibold text-brand-blue transition-colors">
+                        Qual a garantia da instalação?
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5 transform transition-transform duration-300" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="faq-content hidden px-6 py-4 text-slate-600 bg-white">
+                        <p>Oferecemos garantia de 90 dias sobre o serviço de instalação, conforme o código de defesa do
+                            consumidor. Além disso, a instalação correta preserva a garantia total do fabricante do seu
+                            aparelho (que pode chegar a 1 ano ou mais).</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button
+                        class="faq-btn w-full text-left px-6 py-4 bg-gray-50 hover:bg-gray-100 flex justify-between items-center font-semibold text-brand-blue transition-colors">
+                        Aceitam cartão de crédito?
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5 transform transition-transform duration-300" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="faq-content hidden px-6 py-4 text-slate-600 bg-white">
+                        <p>Sim, aceitamos cartões de crédito, débito e PIX. Parcelamos a instalação e venda de
+                            equipamentos (consulte condições).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-blue text-white pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <!-- Brand -->
+                <div class="col-span-1 md:col-span-1">
+                    <a href="#" class="text-2xl font-bold tracking-tighter text-white flex items-center gap-2 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-8 h-8 text-brand-cyan">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+                        </svg>
+                        <span>Santos<span class="text-brand-red">Ar</span></span>
+                    </a>
+                    <p class="text-slate-400 text-sm mb-6">
+                        Soluções completas em climatização para Campinas e região. Qualidade técnica e compromisso com
+                        seu conforto.
+                    </p>
+                    <!-- Social Links (Placeholders) -->
+                    <div class="flex gap-4">
+                        <a href="#" class="text-slate-400 hover:text-white transition-colors" aria-label="Instagram">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-slate-400 hover:text-white transition-colors" aria-label="Facebook">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div class="col-span-1">
+                    <h3 class="font-bold text-lg mb-4 text-white">Links Rápidos</h3>
+                    <ul class="space-y-2 text-slate-400">
+                        <li><a href="#servicos" class="hover:text-brand-cyan transition-colors">Serviços</a></li>
+                        <li><a href="#diferenciais" class="hover:text-brand-cyan transition-colors">Diferenciais</a>
+                        </li>
+                        <li><a href="#faq" class="hover:text-brand-cyan transition-colors">Perguntas Frequentes</a></li>
+                        <li><a href="#" class="hover:text-brand-cyan transition-colors">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-span-1">
+                    <h3 class="font-bold text-lg mb-4 text-white">Contato</h3>
+                    <ul class="space-y-3 text-slate-400">
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-red mt-1" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+                                </path>
+                            </svg>
+                            <span>(19) 99277-9938<br><span class="text-xs">Seg-Sex: 8h às 18h</span></span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <svg class="w-5 h-5 text-brand-red mt-1" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                                </path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                            </svg>
+                            <span>Campinas - SP<br><span class="text-xs">Atendimento em toda região</span></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- CTA -->
+                <div class="col-span-1">
+                    <h3 class="font-bold text-lg mb-4 text-white">Precisa de ajuda agora?</h3>
+                    <p class="text-slate-400 text-sm mb-4">Fale com um técnico especialista pelo WhatsApp.</p>
+                    <a href="https://wa.me/5519992779938?text=Ol%C3%A1%2C%20vim%20pelo%20baixa%20do%20site."
+                        target="_blank"
+                        class="w-full block text-center bg-brand-red hover:bg-red-700 text-white py-3 rounded-lg font-bold transition-all shadow-lg shadow-red-900/40">
+                        Chamar no WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800 pt-8 text-center text-slate-500 text-sm">
+                <p>&copy; 2026 Santos Ar Condicionado. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- LGPD Cookie Banner -->
+    <div id="cookie-banner"
+        class="fixed bottom-0 left-0 right-0 bg-white shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] z-50 p-4 md:p-6 transform translate-y-full transition-transform duration-300">
+        <div class="container mx-auto max-w-5xl flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="text-sm text-slate-600">
+                <p class="font-semibold text-brand-blue mb-1">Nós respeitamos sua privacidade</p>
+                <p>Utilizamos cookies para melhorar sua experiência de navegação e analisar o tráfego do site. Ao
+                    continuar, você concorda com nossa política de privacidade.</p>
+            </div>
+            <div class="flex gap-3 w-full md:w-auto">
+                <button id="accept-cookies"
+                    class="flex-1 md:flex-none px-6 py-2.5 bg-brand-blue text-white rounded-lg font-medium hover:bg-slate-800 transition-colors">
+                    Aceitar Todos
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
