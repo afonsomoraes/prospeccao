@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /clinicasorridi/
+Disallow: /clinicasorridi/assets/
+Sitemap: https://lp.conceptmarketingdigital.com.br/clinicasorridi/sitemap.xml
