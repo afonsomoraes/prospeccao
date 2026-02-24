@@ -9,3 +9,5 @@
 - [x] Links de CTA direcionados para o WhatsApp da Clínica Sorridi.
 - [x] Estética premium aplicada com Tailwind CSS e micro-animações.
 - [x] Atualização da Prova Social com depoimentos reais e persuasivos do Google Meu Negócio.
+- [x] Correção do erro de largura (scroll horizontal) no mobile via `overflow-x-hidden`.
+- [x] Vinculação das imagens reais enviadas: `logo-sorridi.webp` e `fachada-sorridi.webp`.

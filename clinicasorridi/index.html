@@ -44,7 +44,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body class="bg-brand-light text-slate-800 antialiased font-sans">
+<body class="bg-brand-light text-slate-800 antialiased font-sans overflow-x-hidden">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDKTS5WM" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
@@ -54,11 +54,8 @@
     <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-100 shadow-sm">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center gap-2">
-                <div
-                    class="w-10 h-10 bg-brand-navy rounded-lg flex items-center justify-center text-white font-bold text-xl">
-                    S</div>
-                <span class="text-xl font-extrabold text-brand-navy tracking-tight">Clínica<span
-                        class="text-brand-orange">Sorridi</span></span>
+                <img src="./assets/img/logo-sorridi.webp" alt="Logo Clínica Sorridi" width="160" height="50"
+                    class="h-10 md:h-12 w-auto">
             </div>
             <a href="https://api.whatsapp.com/send?phone=5519997896020&text=Ol%C3%A1!%20Vi%20o%20site%20sobre%20Aparelho%20Ortod%C3%B4ntico%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o."
                 target="_blank"
@@ -92,16 +89,11 @@
                     </a>
                 </div>
 
-                <!-- Hero Placeholder Image -->
+                <!-- Hero Image -->
                 <div
                     class="mt-16 relative w-full max-w-4xl rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-white">
-                    <img src="./assets/img/hero-smile.webp" alt="Sorriso Perfeito" width="1200" height="600"
-                        class="w-full h-auto object-cover">
-                    <!-- Placeholder visual feedback -->
-                    <div class="absolute inset-0 bg-slate-200 animate-pulse flex items-center justify-center text-slate-400 font-bold"
-                        id="img-placeholder-hero">
-                        [IMAGEM: PACIENTE SORRINDO COM APARELHO]
-                    </div>
+                    <img src="./assets/img/fachada-sorridi.webp" alt="Clínica Sorridi Indaiatuba" width="1200"
+                        height="600" class="w-full h-auto object-cover" fetchpriority="high">
                 </div>
             </div>
         </section>
@@ -110,9 +102,10 @@
         <section class="py-20 bg-brand-navy text-white">
             <div class="container mx-auto px-4">
                 <div class="flex flex-col md:flex-row items-center gap-12">
-                    <div class="md:w-1/2">
-                        <img src="./assets/img/dental-tech.webp" alt="Tecnologia Odontológica" width="600" height="500"
-                            class="rounded-3xl shadow-2xl">
+                    <div class="md:w-1/2 relative">
+                        <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=2070&auto=format&fit=crop"
+                            alt="Tecnologia Odontológica" width="600" height="500"
+                            class="rounded-3xl shadow-2xl w-full h-auto object-cover">
                         <div
                             class="absolute bg-white/10 backdrop-blur-md p-4 rounded-xl -mt-20 ml-10 border border-white/20 hidden md:block">
                             <p class="font-bold text-brand-orange">Tecnologia 3D</p>
