@@ -1,8 +1,10 @@
-/* Custom Styles for Santos Ar Condicionado */
-html {
-    scroll-behavior: smooth;
-}
+/* Main CSS SantosAr */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-body {
-    font-family: 'Inter', sans-serif;
+@layer base {
+    html {
+        -webkit-tap-highlight-color: transparent;
+    }
 }
