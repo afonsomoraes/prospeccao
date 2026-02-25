@@ -21,7 +21,7 @@
     <meta name="description"
         content="Seu ar condicionado parou? Resolvemos em 24h em Campinas e região. Especialistas em instalação, limpeza e contratos PMOC. Peça seu orçamento!">
     <meta name="robots" content="index, follow">
-    <link rel="icon" href="./assets/img/logo.png" type="image/png">
+    <link rel="icon" href="./assets/img/logo_santos_ar_condicionado.png" type="image/png">
 
     <!-- Schema Markup LocalBusiness (HVACBusiness) -->
     <script type="application/ld+json">
@@ -29,7 +29,7 @@
       "@context": "https://schema.org",
       "@type": "HVACBusiness",
       "name": "SantosAr Climatização",
-      "image": "https://lp.conceptmarketingdigital.com.br/santosarcondicionado/assets/img/logo.png",
+      "image": "https://lp.conceptmarketingdigital.com.br/santosarcondicionado/assets/img/logo_santos_ar_condicionado.png",
       "@id": "https://lp.conceptmarketingdigital.com.br/santosarcondicionado/",
       "url": "https://lp.conceptmarketingdigital.com.br/santosarcondicionado/",
       "telephone": "+5519974082305",
@@ -51,16 +51,11 @@
             theme: {
                 extend: {
                     colors: {
-                        brand: {
-                            ice: '#F0F9FF',
-                            navy: '#0C4A6E',
-                            blue: '#0284C7',
-                            orange: '#F97316',
-                            whatsapp: '#25D366'
-                        }
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
+                        'brand-dark': '#06113D',
+                        'brand-light': '#0CA2DF',
+                        'brand-red': '#CF232F',
+                        'brand-gray': '#898E98',
+                        'brand-sec': '#3D4866',
                     }
                 }
             }
@@ -104,11 +99,11 @@
     <header class="fixed w-full z-50 glass border-b border-slate-200">
         <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center">
-                <img src="./assets/img/logo.png" alt="SantosAr Logo" width="180" height="50"
+                <img src="./assets/img/logo_santos_ar_condicionado.png" alt="SantosAr Logo" width="180" height="50"
                     class="h-10 md:h-12 w-auto">
             </div>
             <a href="https://api.whatsapp.com/send?phone=5519974082305&text=Ol%C3%A1!%20Vi%20o%20site%20da%20SantosAr%20e%20preciso%20de%20ajuda%20com%20meu%20ar%20condicionado."
-                class="bg-brand-navy text-white px-4 py-2 rounded-lg font-bold text-sm hover:bg-brand-blue transition-colors">
+                class="bg-brand-red text-white px-4 py-2 rounded-lg font-bold text-sm hover:bg-red-800 transition-colors">
                 Orçamento Rápido
             </a>
         </nav>
@@ -116,44 +111,42 @@
 
     <main>
         <!-- Dobra 1: Hero Section -->
-        <section class="relative min-h-screen flex items-center pt-24 pb-12 overflow-hidden">
-            <!-- Background Image Placeholder logic would go here, using a div with bg-slate-200 for now -->
-            <div class="absolute inset-0 z-0">
+        <section class="relative min-h-screen flex items-center pt-24 pb-12 overflow-hidden bg-brand-dark">
+            <div class="absolute inset-0 z-0 opacity-30">
                 <img src="./assets/img/hero-bg.webp" alt="Técnico de Ar Condicionado" width="1920" height="1080"
-                    fetchpriority="high" class="w-full h-full object-cover opacity-20">
-                <div class="absolute inset-0 bg-gradient-to-b from-brand-ice/80 to-brand-ice"></div>
+                    fetchpriority="high" class="w-full h-full object-cover">
             </div>
 
             <div
                 class="container mx-auto px-4 relative z-10 text-center lg:text-left flex flex-col lg:flex-row items-center gap-12">
                 <div class="lg:w-3/5">
                     <span
-                        class="inline-block bg-brand-blue/10 text-brand-blue px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4 border border-brand-blue/20">
+                        class="inline-block bg-brand-light/20 text-brand-light px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4 border border-brand-light/30">
                         Atendimento em Campinas e Região
                     </span>
-                    <h1 class="text-4xl md:text-6xl font-extrabold text-brand-navy leading-tight mb-6">
+                    <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
                         Seu Ar Condicionado Parou? <br class="hidden md:block">
-                        <span class="text-brand-orange">Resolvemos em 24h.</span>
+                        <span class="text-brand-red">Resolvemos em 24h.</span>
                     </h1>
-                    <h2 class="text-lg md:text-xl text-slate-600 mb-8 max-w-2xl leading-relaxed">
+                    <h2 class="text-lg md:text-xl text-brand-gray mb-8 max-w-2xl leading-relaxed">
                         Especialistas em instalação, manutenção e contratos PMOC. Garantia de conforto e conformidade
                         técnica para sua casa ou empresa.
                     </h2>
 
                     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
-                        <div class="flex items-center gap-2 text-slate-700 font-semibold">
-                            <span class="text-brand-blue">✓</span> Técnicos Certificados
+                        <div class="flex items-center gap-2 text-white font-semibold">
+                            <span class="text-brand-light">✓</span> Técnicos Certificados
                         </div>
-                        <div class="flex items-center gap-2 text-slate-700 font-semibold">
-                            <span class="text-brand-blue">✓</span> Orçamento Transparente
+                        <div class="flex items-center gap-2 text-white font-semibold">
+                            <span class="text-brand-light">✓</span> Orçamento Transparente
                         </div>
-                        <div class="flex items-center gap-2 text-slate-700 font-semibold">
-                            <span class="text-brand-blue">✓</span> Disponível Agora
+                        <div class="flex items-center gap-2 text-white font-semibold">
+                            <span class="text-brand-light">✓</span> Disponível Agora
                         </div>
                     </div>
 
                     <a href="https://api.whatsapp.com/send?phone=5519974082305&text=Ol%C3%A1!%20Vi%20o%20site%20da%20SantosAr%20e%20preciso%20de%20ajuda%20com%20meu%20ar%20condicionado."
-                        class="inline-block bg-brand-orange text-white px-8 py-4 rounded-xl text-xl font-bold pulse-btn hover:bg-brand-orange/90 transition-all shadow-lg shadow-orange-500/30">
+                        class="inline-block bg-brand-red text-white px-8 py-4 rounded-xl text-xl font-bold pulse-btn hover:bg-red-800 transition-all shadow-lg shadow-red-500/30">
                         Agendar Visita Agora
                     </a>
                 </div>
@@ -164,7 +157,7 @@
         <section id="solucoes" class="py-24 bg-white">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-16">
-                    <h2 class="text-3xl md:text-5xl font-extrabold text-brand-navy mb-4">Nossas Soluções em Climatização
+                    <h2 class="text-3xl md:text-5xl font-extrabold text-brand-sec mb-4">Nossas Soluções em Climatização
                     </h2>
                     <p class="text-slate-600 max-w-2xl mx-auto text-lg">Atendemos desde pequenos reparos residenciais
                         até grandes projetos corporativos com excelência técnica.</p>
@@ -179,21 +172,21 @@
                                 loading="lazy" class="w-full h-full object-cover">
                         </div>
                         <div class="p-8 flex flex-col flex-grow">
-                            <h3 class="text-2xl font-bold text-brand-navy mb-4">Instalação Split</h3>
+                            <h3 class="text-2xl font-bold text-brand-sec mb-4">Instalação Split</h3>
                             <p class="text-slate-600 mb-6 flex-grow text-sm">
                                 Instalação técnica seguindo rigorosamente as normas do fabricante. Preservamos a
                                 garantia do seu aparelho e garantimos acabamento impecável.
                             </p>
                             <ul class="mb-8 space-y-2">
-                                <li class="flex items-center gap-2 text-xs font-bold text-slate-700 uppercase">
-                                    <span class="w-2 h-2 bg-brand-orange rounded-full"></span> Tubulação de cobre
+                                <li class="flex items-center gap-2 text-xs font-bold text-brand-sec uppercase">
+                                    <span class="w-2 h-2 bg-brand-light rounded-full"></span> Tubulação de cobre
                                 </li>
-                                <li class="flex items-center gap-2 text-xs font-bold text-slate-700 uppercase">
-                                    <span class="w-2 h-2 bg-brand-orange rounded-full"></span> Vácuo e testes de pressão
+                                <li class="flex items-center gap-2 text-xs font-bold text-brand-sec uppercase">
+                                    <span class="w-2 h-2 bg-brand-light rounded-full"></span> Vácuo e testes de pressão
                                 </li>
                             </ul>
                             <a href="https://api.whatsapp.com/send?phone=5519974082305&text=Ol%C3%A1!%20Vi%20o%20site%20da%20SantosAr%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20Instala%C3%A7%C3%A3o%20Split."
-                                class="block text-center border-2 border-brand-navy text-brand-navy py-3 rounded-lg font-bold hover:bg-brand-navy hover:text-white transition-all">
+                                class="block text-center border-2 border-brand-red text-brand-red py-3 rounded-lg font-bold hover:bg-brand-red hover:text-white transition-all">
                                 Pedir Orçamento
                             </a>
                         </div>
@@ -208,22 +201,22 @@
                                 loading="lazy" class="w-full h-full object-cover">
                         </div>
                         <div class="p-8 flex flex-col flex-grow">
-                            <h3 class="text-2xl font-bold text-brand-navy mb-4">Limpeza e Manutenção</h3>
+                            <h3 class="text-2xl font-bold text-brand-sec mb-4">Limpeza e Manutenção</h3>
                             <p class="text-slate-600 mb-6 flex-grow text-sm">
                                 Seu ar parou de gelar ou está com cheiro ruim? Realizamos limpeza química profunda e
                                 reparos técnicos para devolver a eficiência e eliminar fungos.
                             </p>
                             <ul class="mb-8 space-y-2">
-                                <li class="flex items-center gap-2 text-xs font-bold text-slate-700 uppercase">
-                                    <span class="w-2 h-2 bg-brand-orange rounded-full"></span> Eliminação de
+                                <li class="flex items-center gap-2 text-xs font-bold text-brand-sec uppercase">
+                                    <span class="w-2 h-2 bg-brand-light rounded-full"></span> Eliminação de
                                     ácaros/fungos
                                 </li>
-                                <li class="flex items-center gap-2 text-xs font-bold text-slate-700 uppercase">
-                                    <span class="w-2 h-2 bg-brand-orange rounded-full"></span> Recarga de Gás
+                                <li class="flex items-center gap-2 text-xs font-bold text-brand-sec uppercase">
+                                    <span class="w-2 h-2 bg-brand-light rounded-full"></span> Recarga de Gás
                                 </li>
                             </ul>
                             <a href="https://api.whatsapp.com/send?phone=5519974082305&text=Ol%C3%A1!%20Vi%20o%20site%20da%20SantosAr%20e%20gostaria%20de%20agendar%20uma%20Limpeza/Manuten%C3%A7%C3%A3o."
-                                class="block text-center border-2 border-brand-navy text-brand-navy py-3 rounded-lg font-bold hover:bg-brand-navy hover:text-white transition-all">
+                                class="block text-center border-2 border-brand-red text-brand-red py-3 rounded-lg font-bold hover:bg-brand-red hover:text-white transition-all">
                                 Agendar Manutenção
                             </a>
                         </div>
@@ -237,22 +230,22 @@
                                 loading="lazy" class="w-full h-full object-cover">
                         </div>
                         <div class="p-8 flex flex-col flex-grow">
-                            <h3 class="text-2xl font-bold text-brand-navy mb-4">B2B / EMPRESAS - PMOC</h3>
+                            <h3 class="text-2xl font-bold text-brand-sec mb-4">B2B / EMPRESAS - PMOC</h3>
                             <p class="text-slate-600 mb-6 flex-grow text-sm">
                                 Evite multas e proteja a saúde da sua equipe. Emitimos laudo técnico, ART e realizamos o
                                 Plano de Manutenção (PMOC) exigido pela lei 13.589/18.
                             </p>
                             <ul class="mb-8 space-y-2">
-                                <li class="flex items-center gap-2 text-xs font-bold text-slate-700 uppercase">
-                                    <span class="w-2 h-2 bg-brand-orange rounded-full"></span> Laudo e ART inclusos
+                                <li class="flex items-center gap-2 text-xs font-bold text-brand-sec uppercase">
+                                    <span class="w-2 h-2 bg-brand-light rounded-full"></span> Laudo e ART inclusos
                                 </li>
-                                <li class="flex items-center gap-2 text-xs font-bold text-slate-700 uppercase">
-                                    <span class="w-2 h-2 bg-brand-orange rounded-full"></span> Visitas mensais
+                                <li class="flex items-center gap-2 text-xs font-bold text-brand-sec uppercase">
+                                    <span class="w-2 h-2 bg-brand-light rounded-full"></span> Visitas mensais
                                     programadas
                                 </li>
                             </ul>
                             <a href="https://api.whatsapp.com/send?phone=5519974082305&text=Ol%C3%A1!%20Vi%20o%20site%20da%20SantosAr%20e%20gostaria%20de%20cotar%20um%20Contrato%20PMOC."
-                                class="block text-center border-2 border-brand-navy text-brand-navy py-3 rounded-lg font-bold hover:bg-brand-navy hover:text-white transition-all">
+                                class="block text-center border-2 border-brand-red text-brand-red py-3 rounded-lg font-bold hover:bg-brand-red hover:text-white transition-all">
                                 Cotar Contrato
                             </a>
                         </div>
@@ -262,34 +255,34 @@
         </section>
 
         <!-- Dobra 3: Por que escolher a SantosAr -->
-        <section class="py-24 bg-brand-navy text-white overflow-hidden relative">
+        <section class="py-24 bg-brand-dark text-white overflow-hidden relative">
             <div class="container mx-auto px-4 relative z-10">
                 <div class="text-center mb-16">
-                    <h2 class="text-3xl md:text-5xl font-extrabold mb-4">Por que escolher a SantosAr?</h2>
+                    <h2 class="text-3xl md:text-5xl font-extrabold mb-4 text-white">Por que escolher a SantosAr?</h2>
                 </div>
                 <div class="grid md:grid-cols-3 gap-12">
                     <div class="text-center p-8 bg-white/5 rounded-2xl border border-white/10">
                         <div
-                            class="w-16 h-16 bg-brand-blue rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">
+                            class="w-16 h-16 bg-brand-light rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">
                             ⚡</div>
                         <h3 class="text-2xl font-bold mb-4">Atendimento Rápido</h3>
-                        <p class="text-slate-300">Agilidade no diagnóstico e visita técnica em toda Campinas e região.
+                        <p class="text-brand-gray">Agilidade no diagnóstico e visita técnica em toda Campinas e região.
                         </p>
                     </div>
                     <div class="text-center p-8 bg-white/5 rounded-2xl border border-white/10">
                         <div
-                            class="w-16 h-16 bg-brand-blue rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">
+                            class="w-16 h-16 bg-brand-light rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">
                             🛡️</div>
                         <h3 class="text-2xl font-bold mb-4">Garantia Técnica</h3>
-                        <p class="text-slate-300">Todos os nossos serviços são acompanhados de nota e garantia técnica
+                        <p class="text-brand-gray">Todos os nossos serviços são acompanhados de nota e garantia técnica
                             total.</p>
                     </div>
                     <div class="text-center p-8 bg-white/5 rounded-2xl border border-white/10">
                         <div
-                            class="w-16 h-16 bg-brand-blue rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">
+                            class="w-16 h-16 bg-brand-light rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">
                             🤝</div>
                         <h3 class="text-2xl font-bold mb-4">Foco no Cliente</h3>
-                        <p class="text-slate-300">Atendimento transparente, honesto e focado na melhor solução para
+                        <p class="text-brand-gray">Atendimento transparente, honesto e focado na melhor solução para
                             você.</p>
                     </div>
                 </div>
@@ -300,7 +293,7 @@
         <section class="py-24 bg-white">
             <div class="container mx-auto px-4 max-w-3xl">
                 <div class="text-center mb-16">
-                    <h2 class="text-3xl md:text-5xl font-extrabold text-brand-navy">Dúvidas Frequentes</h2>
+                    <h2 class="text-3xl md:text-5xl font-extrabold text-brand-sec">Dúvidas Frequentes</h2>
                 </div>
                 <div class="space-y-4">
                     <details
@@ -345,12 +338,12 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-slate-900 text-slate-400 py-16">
+    <footer class="bg-brand-dark text-brand-gray py-16">
         <div class="container mx-auto px-4">
             <div class="grid md:grid-cols-3 gap-12 items-center text-center md:text-left">
                 <div>
-                    <img src="./assets/img/logo.png" alt="SantosAr Logo" width="180" height="50"
-                        class="mb-6 h-10 w-auto mx-auto md:mx-0 invert">
+                    <img src="./assets/img/logo_santos_ar_condicionado.png" alt="SantosAr Logo" width="180" height="50"
+                        class="mb-6 h-10 w-auto mx-auto md:mx-0">
                     <p class="max-w-xs">Soluções completas em climatização para Campinas e região. Qualidade técnica e
                         compromisso com seu conforto.</p>
                 </div>
@@ -362,7 +355,7 @@
                 </div>
                 <div>
                     <a href="https://api.whatsapp.com/send?phone=5519974082305&text=Ol%C3%A1!%20Vi%20o%20site%20da%20SantosAr%20e%20preciso%20de%20ajuda%20com%20meu%20ar%20condicionado."
-                        class="inline-block bg-brand-whatsapp text-white px-6 py-3 rounded-lg font-bold text-lg hover:scale-105 transition-all">
+                        class="inline-block bg-brand-red text-white px-6 py-3 rounded-lg font-bold text-lg hover:bg-red-800 transition-all">
                         Falar com Especialista
                     </a>
                 </div>
@@ -376,7 +369,7 @@
 
     <!-- WhatsApp Button -->
     <a href="https://api.whatsapp.com/send?phone=5519974082305&text=Ol%C3%A1!%20Vi%20o%20site%20da%20SantosAr%20e%20preciso%20de%20ajuda%20com%20meu%20ar%20condicionado."
-        class="fixed bottom-6 right-6 bg-brand-whatsapp text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-all z-[100] pulse-btn"
+        class="fixed bottom-6 right-6 bg-brand-red text-white p-4 rounded-full shadow-2xl hover:bg-red-800 transition-all z-[100] pulse-btn"
         aria-label="WhatsApp">
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
             <path

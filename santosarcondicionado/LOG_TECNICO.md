@@ -10,3 +10,7 @@
     - [x] Otimização de Imagens (width/height, fetchpriority no Hero).
     - [x] Botão flutuante de WhatsApp e CTAs configurados.
 - [x] Criação de `assets/css/style.css` e `assets/js/main.js`.
+- [x] Configuração da Identidade Visual Oficial:
+    - [x] Paleta de cores (brand-dark, light, red, gray, sec).
+    - [x] Atualização de logos e favicon para `logo_santos_ar_condicionado.png`.
+    - [x] Ajuste de tipografia e contrastes para alta conversão.
