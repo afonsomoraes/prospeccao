@@ -11,3 +11,5 @@
 - [x] Atualização da Prova Social com depoimentos reais e persuasivos do Google Meu Negócio.
 - [x] Correção do erro de largura (scroll horizontal) no mobile via `overflow-x-hidden`.
 - [x] Vinculação das imagens reais enviadas: `logo-sorridi.webp` e `fachada-sorridi.webp`.
+- [x] Configuração de favicon e logotipos (Header/Footer) usando `SORRIDI.png`.
+- [x] Atualização da imagem Hero para `fachada-sorridi.webp` com otimização LCP.
