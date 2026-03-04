@@ -18,5 +18,5 @@
     - RENTAL: `#A0A3A9` (Cinza Médio)
 - [x] Atualização dos ícones de plataforma para `#970000`
 - [x] Configuração global do Tailwind no `index.html` com as cores hexadecimais
-- [x] Aplicação do fundo clara oficial `#D4D4D4` em todas as seções e body
-- [x] Ajuste dos estados de hover dos botões para tons mais escuros das cores oficiais
+- [x] Aplicar fundo #D4D4D4 onde necessário
+- [x] Ajuste da logo no rodapé (Filtro branco para contraste com o fundo escuro)
