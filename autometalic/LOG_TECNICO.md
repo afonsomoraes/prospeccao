@@ -11,7 +11,12 @@
 - [x] Sitemap.xml e Robots.txt atualizados na raiz.
 - [x] Corrigido erro de compatibilidade CSS (`background-clip`) e placeholders de contato.
 - [x] Imagem hero gerada e posicionada em `/assets/img/hero_vibe.png`.
+- [x] Logo oficial `logo_autometalic.png` implementado no topo e rodapé.
+- [x] WhatsApp atualizado para 19 99185-0241 em todos os CTAs e Schema.
+- [x] Expansão da grade de serviços (8 itens no total: micro pintura, polimento, martelinho, pintura de bancos, lavagens, higienização AC, higienização interna e polimento de faróis).
 - [x] **PRONTO PARA GITHUB E REVISÃO DO CLIENTE.**
+
+
 
 
 
