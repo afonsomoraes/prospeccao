@@ -22,4 +22,21 @@ document.addEventListener('DOMContentLoaded', () => {
             link.setAttribute('rel', 'noopener noreferrer');
         }
     });
+
+    // Cookie Banner Logic
+    const banner = document.getElementById('cookie-banner');
+    const acceptBtn = document.getElementById('accept-cookies');
+
+    if (banner && acceptBtn) {
+        if (!localStorage.getItem('cookiesAccepted')) {
+            setTimeout(() => {
+                banner.classList.remove('translate-y-full');
+            }, 1000);
+        }
+
+        acceptBtn.addEventListener('click', () => {
+            localStorage.setItem('cookiesAccepted', 'true');
+            banner.classList.add('translate-y-full');
+        });
+    }
 });
