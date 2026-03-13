@@ -25,4 +25,4 @@ Para configurar um novo cliente (ex: `cliente-exemplo`):
 - Mantenha o CTA (WhatsApp) sempre visível.
 
 ---
-*Organizado por Antigravity / Concept Marketing Digital*
+*Organizado por Concept Marketing Digital*
