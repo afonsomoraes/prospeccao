@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concept Marketing Digital | Landing Pages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 { margin-bottom: 10px; }
+        p { color: #666; }
+        .loading {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #999;
+        }
+    </style>
+    <!-- Redirecionamento Automático para o site principal após 3 segundos -->
+    <meta http-equiv="refresh" content="3;url=https://conceptmarketingdigital.com.br">
+</head>
+<body>
+    <div class="container">
+        <h1>Concept Marketing Digital</h1>
+        <p>Você está acessando nosso portal de demonstrações e prospecção.</p>
+        <p>Aguarde, você será redirecionado para nossa página oficial...</p>
+        <div class="loading">Redirecionando em alguns instantes...</div>
+    </div>
+    <script>
+        // Caso o meta refresh falhe
+        setTimeout(function() {
+            window.location.href = "https://conceptmarketingdigital.com.br";
+        }, 5000);
+    </script>
+</body>
+</html>
