@@ -1,4 +1,4 @@
-const N8N_WEBHOOK_URL = 'https://screamingwombat-n8n.cloudfy.live/webhook/extrair-leads';
+const N8N_WEBHOOK_URL = 'https://screamingwombat-n8n.cloudfy.live/webhook-test/extrair-leads';
 
 document.getElementById('extraction-form').addEventListener('submit', async (e) => {
     e.preventDefault();
