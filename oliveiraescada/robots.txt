@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://lp.conceptmarketingdigital.com.br/sitemap.xml
