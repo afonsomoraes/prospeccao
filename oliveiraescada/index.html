@@ -1,9 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oliveira Escadas | Escadas Pré-moldadas em Campinas</title>
+    <meta name="description" content="Especialistas em escadas pré-moldadas em Campinas. Há 11 anos garantindo segurança e estética. Agende sua medição técnica gratuita no local hoje mesmo!">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://lp.conceptmarketingdigital.com.br/oliveiraescada/">
+    <link rel="icon" type="image/png" href="assets/img/logo_oliveira_escadas.png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lp.conceptmarketingdigital.com.br/oliveiraescada/">
+    <meta property="og:title" content="Oliveira Escadas | Escadas Pré-moldadas em Campinas">
+    <meta property="og:description" content="Segurança e design em escadas de concreto. Visita técnica gratuita para medição em toda região de Campinas.">
+    <meta property="og:image" content="https://lp.conceptmarketingdigital.com.br/oliveiraescada/assets/img/hero-escada.webp">
 
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
@@ -16,27 +28,41 @@
         })(window, document, 'script', 'dataLayer', 'GTM-TDKTS5WM');</script>
     <!-- End Google Tag Manager -->
 
-    <title>Escadas Pré-moldadas em Campinas | Oliveira Escadas</title>
-    <meta name="description"
-        content="Especialista em escadas pré-moldadas em Campinas. Há 11 anos garantindo segurança e estética. Agende sua medição técnica gratuita no local hoje mesmo!">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://lp.conceptmarketingdigital.com.br/oliveiraescada/">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1E2F63',
+                        accent: '#2E4A8A',
+                        details: '#A7B8C9',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://lp.conceptmarketingdigital.com.br/oliveiraescada/">
-    <meta property="og:title" content="Oliveira Escadas | Escadas Pré-moldadas em Campinas">
-    <meta property="og:description"
-        content="Segurança e design em escadas de concreto. Visita técnica gratuita para medição em toda região de Campinas.">
-    <meta property="og:image" content="./assets/img/hero-escada.webp">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://lp.conceptmarketingdigital.com.br/oliveiraescada/">
-    <meta property="twitter:title" content="Oliveira Escadas | Escadas Pré-moldadas em Campinas">
-    <meta property="twitter:description"
-        content="Especialista em escadas pré-moldadas. Precisão técnica e atendimento humanizado.">
-    <meta property="twitter:image" content="./assets/img/hero-escada.webp">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+            70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
+            100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+        }
+        .hero-bg {
+            background: linear-gradient(135deg, #1E2F63 0%, #2E4A8A 100%);
+        }
+    </style>
 
     <script type="application/ld+json">
     {
@@ -77,338 +103,363 @@
       ]
     }
     </script>
-
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#1E2F63',
-                        accent: '#2E4A8A',
-                        details1: '#6F89A8',
-                        details2: '#A7B8C9',
-                        details3: '#4A5F78',
-                        neutral1: '#3B3B3B',
-                        neutral2: '#6B6B6B'
-                    },
-                    container: {
-                        center: true,
-                        padding: '1.5rem'
-                    }
-                }
-            }
-        }
-    </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-
-        .cta-button {
-            background-color: #A7B8C9;
-            color: #1E2F63;
-        }
-
-        .cta-button:hover {
-            background-color: #CBD5E1;
-        }
-
-        .glass-panel {
-            background: rgba(255, 255, 255, 0.03);
-            -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-    </style>
 </head>
 
-<body class="bg-primary text-white antialiased selection:bg-details2 selection:text-primary">
+<body class="bg-slate-50 text-slate-900">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDKTS5WM" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <header class="bg-primary/90 backdrop-blur-xl border-b border-white/5 sticky top-0 z-50">
-        <nav class="container py-5 flex justify-between items-center">
-            <div class="flex flex-col">
-                <span class="text-2xl font-black tracking-tighter uppercase leading-none">Oliveira</span>
-                <span
-                    class="text-[10px] font-bold tracking-[0.4em] uppercase text-details2 ml-1 leading-none mt-1">Escadas</span>
+    <!-- 1. HEADER -->
+    <header class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-primary/5">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <img src="assets/img/logo_oliveira_escadas.png" alt="Logo Oliveira Escadas" width="180" height="60" class="h-12 w-auto">
             </div>
-            <a href="https://wa.me/5519996370845?text=Olá! Gostaria de agendar uma medição técnica gratuita."
-                class="cta-button px-6 py-3 rounded-xl font-black text-xs uppercase tracking-widest transition-all shadow-xl active:scale-95 text-center"
-                target="_blank" rel="noopener noreferrer">Agendar Visita</a>
+            <a href="https://wa.me/5519996370845?text=Ol%C3%A1%2C%20vi%20o%20site%20da%20Oliveira%20Escadas%20e%20gostaria%20de%20um%20or%C3%A7amento."
+                class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl font-bold text-sm transition-all hidden md:flex items-center gap-2"
+                target="_blank" rel="noopener noreferrer">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.539 1.963 2.023-.53c.939.511 2.01.785 3.264.786 3.182 0 5.767-2.587 5.768-5.766 0-3.18-2.586-5.766-5.767-5.766zm3.333 8.017c-.145.41-.741.76-1.02.833-.289.074-.537.103-1.52-.301-1.21-.498-1.956-1.748-2.015-1.826-.06-.078-.492-.656-.492-1.26 0-.603.315-.9.43-.1.115-.124.25-.155.333-.155.083 0 .165 0 .237.005.075.003.175-.028.273.21.099.239.34.828.37 0 .03.072.053.155.053.237-.083.082-.15.116-.233.201-.083.085-.17.175-.073.342.097.167.433.714.935 1.162.646.577 1.188.756 1.355.839.166.083.264.07.362-.041.097-.111.414-.482.525-.647.111-.165.221-.138.371-.083.15.055.951.448 1.116.53.165.083.275.124.316.196.041.073.041.424-.104.834zM12 2C6.477 2 2 6.477 2 12c0 1.83.493 3.545 1.353 5.01L2 22l5.085-1.335A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+                Orçamento Grátis
+            </a>
         </nav>
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <section class="relative pt-20 pb-32 overflow-hidden">
-            <div class="container relative z-10 flex flex-col lg:flex-row items-center gap-20">
-                <div class="lg:w-3/5 text-center lg:text-left">
-                    <span
-                        class="inline-block px-4 py-2 mb-8 text-[11px] font-bold tracking-[0.3em] text-details2 border-2 border-details2/20 rounded-full uppercase bg-white/5">
-                        Referência Técnica em Campinas
+        <!-- 2. HERO SECTION -->
+        <section class="relative py-16 md:py-28 overflow-hidden hero-bg text-white">
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="max-w-4xl mx-auto text-center">
+                    <span class="inline-block px-4 py-1.5 bg-white/10 text-details rounded-full text-sm font-bold mb-6 tracking-wide uppercase">
+                        Referência em Campinas e Região
                     </span>
-                    <h1 class="text-4xl md:text-6xl lg:text-7xl font-[900] mb-8 leading-[1.05] tracking-tight">
-                        A <span class="text-details2 italic">Segurança</span> que seu Projeto Exige.
+                    <h1 class="text-4xl md:text-7xl font-black mb-8 leading-[1.1] tracking-tight" fetchpriority="high">
+                        A <span class="text-details italic">Segurança</span> que seu Projeto Exige em <span class="bg-gradient-to-r from-details to-white bg-clip-text text-transparent">Campinas</span>
                     </h1>
-                    <p class="text-xl text-details1 mb-12 max-w-2xl font-medium leading-relaxed opacity-90">
-                        Escadas pré-moldadas de concreto com medição técnica no local para garantir precisão absoluta e
-                        acabamento impecável em sua obra.
+                    <p class="text-lg md:text-2xl text-slate-200 mb-12 leading-relaxed md:px-20 font-medium">
+                        Escadas pré-moldadas de concreto com medição técnica no local para garantir precisão absoluta e acabamento impecável em sua obra.
                     </p>
-                    <div class="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
-                        <a href="https://wa.me/5519996370845?text=Olá! Gostaria de um orçamento para uma escada pré-moldada."
-                            class="bg-[#25D366] hover:bg-[#20bd5c] text-white px-10 py-5 rounded-2xl text-lg font-black shadow-2xl transition-all hover:-translate-y-1 active:scale-95 text-center flex items-center justify-center gap-3 group"
+                    <div class="flex flex-col sm:flex-row justify-center gap-6">
+                        <a href="https://wa.me/5519996370845?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20para%20escada."
+                            class="bg-[#25D366] hover:bg-[#20bd5c] text-white px-12 py-5 rounded-2xl text-xl font-extrabold shadow-2xl transition-all flex items-center justify-center gap-3 pulse-animation"
                             target="_blank" rel="noopener noreferrer">
-                            <svg class="w-6 h-6 group-hover:rotate-12 transition-transform" fill="currentColor"
-                                viewBox="0 0 24 24">
-                                <path
-                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-                            </svg>
-                            Orçamento via WhatsApp
+                            Quero Medição Gratuita
                         </a>
-                        <a href="#products"
-                            class="bg-white/5 border-2 border-white/20 hover:border-details2/50 text-white px-10 py-5 rounded-2xl text-lg font-bold transition-all text-center backdrop-blur-xl">
-                            Conhecer Modelos
+                        <a href="#servicos" class="bg-white/10 hover:bg-white/20 border border-white/20 backdrop-blur-xl text-white px-12 py-5 rounded-2xl text-xl font-bold transition-all">
+                            Ver Modelos
                         </a>
                     </div>
                 </div>
-
-                <div class="lg:w-2/5">
-                    <div class="relative group">
-                        <div
-                            class="absolute -inset-1.5 bg-gradient-to-r from-details2 to-accent rounded-[3.5rem] blur-xl opacity-20 group-hover:opacity-40 transition duration-1000">
-                        </div>
-                        <div
-                            class="relative bg-primary rounded-[3rem] overflow-hidden shadow-2xl border-4 border-white/10 aspect-[4/5] lg:aspect-[3/4]">
-                            <img src="./assets/img/hero-escada.webp" alt="Escada de concreto premium" width="800"
-                                height="1067" fetchpriority="high" class="w-full h-full object-cover">
-                        </div>
-                    </div>
-                </div>
             </div>
-
-            <!-- Grid Background Decor -->
-            <div class="absolute top-0 right-0 w-full h-full pointer-events-none overflow-hidden opacity-20">
-                <div class="absolute -top-1/4 -right-1/4 w-[800px] h-[800px] bg-accent/30 rounded-full blur-[100px]">
-                </div>
+            
+            <!-- Background Image Aspect (Right Side Decor) -->
+            <div class="absolute right-0 bottom-0 top-0 w-1/3 opacity-20 pointer-events-none hidden lg:block">
+                <img src="assets/img/hero-escada.webp" alt="Escada de concreto" class="w-full h-full object-cover grayscale">
             </div>
         </section>
 
-        <!-- Seção Produtos -->
-        <section id="products" class="py-32 bg-accent shadow-inner">
-            <div class="container">
-                <div class="max-w-3xl mx-auto text-center mb-24">
-                    <h2 class="text-4xl md:text-5xl font-black mb-6 tracking-tight">Projetos de Alta Performance</h2>
-                    <p class="text-xl text-details2 font-medium opacity-80">Do funcional ao escultural. Definimos o novo
-                        padrão em escadas de concreto.</p>
-                </div>
-
-                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
-                    <!-- Escada L -->
-                    <div
-                        class="group relative bg-primary p-5 rounded-[2.5rem] border border-white/5 transition-all hover:scale-[1.03]">
-                        <div class="aspect-square rounded-[2rem] overflow-hidden mb-8">
-                            <img src="./assets/img/escada-l.webp" alt="Modelo Escada L" width="400" height="400"
-                                loading="lazy"
-                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                        </div>
-                        <h3 class="text-xl font-black mb-4 px-3 uppercase tracking-tighter">Escada Modelo L</h3>
-                        <p class="text-sm text-details1 leading-relaxed px-3 pb-5">Elegância clássica otimizada para
-                            cantos e espaços residenciais.</p>
+        <!-- 3. PROVA SOCIAL 1 (Confiança) -->
+        <section class="py-12 bg-slate-100 border-b border-slate-200">
+            <div class="container mx-auto px-4 text-center">
+                <div class="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-20">
+                    <div class="flex items-center gap-3">
+                        <span class="text-3xl font-black text-primary">11+</span>
+                        <span class="text-sm font-bold text-slate-500 uppercase tracking-widest leading-none">Anos de<br>Experiência</span>
                     </div>
-
-                    <!-- Escada J -->
-                    <div
-                        class="group relative bg-primary p-5 rounded-[2.5rem] border border-white/5 transition-all hover:scale-[1.03]">
-                        <div class="aspect-square rounded-[2rem] overflow-hidden mb-8">
-                            <img src="./assets/img/escada-j.webp" alt="Modelo Escada J" width="400" height="400"
-                                loading="lazy"
-                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                        </div>
-                        <h3 class="text-xl font-black mb-4 px-3 uppercase tracking-tighter">Escada Modelo J</h3>
-                        <p class="text-sm text-details1 leading-relaxed px-3 pb-5">Design curvo sofisticado para
-                            ambientes modernos de alto padrão.</p>
+                    <div class="w-px h-8 bg-slate-300 hidden md:block"></div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-3xl font-black text-primary">5k+</span>
+                        <span class="text-sm font-bold text-slate-500 uppercase tracking-widest leading-none">Escadas<br>Entregues</span>
                     </div>
-
-                    <!-- Viga Central -->
-                    <div
-                        class="group relative bg-primary p-5 rounded-[2.5rem] border border-white/5 transition-all hover:scale-[1.03]">
-                        <div class="aspect-square rounded-[2rem] overflow-hidden mb-8">
-                            <img src="./assets/img/escada-viga.webp" alt="Escada Viga Central" width="400" height="400"
-                                loading="lazy"
-                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                        </div>
-                        <h3 class="text-xl font-black mb-4 px-3 uppercase tracking-tighter">Viga Central</h3>
-                        <p class="text-sm text-details1 leading-relaxed px-3 pb-5">Leveza e modernidade: o destaque
-                            visual que sua obra precisa.</p>
-                    </div>
-
-                    <!-- Escada Caracol -->
-                    <div
-                        class="group relative bg-primary p-5 rounded-[2.5rem] border border-white/5 transition-all hover:scale-[1.03]">
-                        <div class="aspect-square rounded-[2rem] overflow-hidden mb-8">
-                            <img src="./assets/img/escada-caracol.webp" alt="Modelo Caracol" width="400" height="400"
-                                loading="lazy"
-                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                        </div>
-                        <h3 class="text-xl font-black mb-4 px-3 uppercase tracking-tighter">Escada Caracol</h3>
-                        <p class="text-sm text-details1 leading-relaxed px-3 pb-5">Conforto e praticidade para conectar
-                            níveis com economia de espaço.</p>
+                    <div class="w-px h-8 bg-slate-300 hidden md:block"></div>
+                    <div class="flex items-center gap-3">
+                        <span class="text-3xl font-black text-primary">100%</span>
+                        <span class="text-sm font-bold text-slate-500 uppercase tracking-widest leading-none">Garantia de<br>Qualidade</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Diferencial / Atendimento Humanizado -->
-        <section id="differential" class="py-32 bg-primary relative overflow-hidden">
-            <div class="container relative z-10 flex flex-col md:flex-row items-center gap-20">
-                <div class="md:w-1/2">
-                    <h2 class="text-4xl md:text-6xl font-black mb-8 leading-tight">Medição Técnica:<br><span
-                            class="text-details2">Zero Erros</span> na sua Obra.</h2>
-                    <p class="text-xl text-details1 mb-12 font-medium leading-relaxed">Não dependemos apenas de plantas.
-                        Nossos especialistas visitam sua construção para validar cada medida, garantindo perfeição
-                        absoluta.</p>
-                    <div class="grid grid-cols-2 gap-8">
-                        <div class="p-6 bg-white/5 rounded-3xl border border-white/5">
-                            <span class="block text-3xl mb-4">🏠</span>
-                            <h4 class="font-black text-sm uppercase tracking-widest mb-2">Visita In Loco</h4>
-                            <p class="text-[10px] text-details1/60 font-bold uppercase tracking-widest">Atendimento
-                                Presencial</p>
-                        </div>
-                        <div class="p-6 bg-white/5 rounded-3xl border border-white/5">
-                            <span class="block text-3xl mb-4">🎯</span>
-                            <h4 class="font-black text-sm uppercase tracking-widest mb-2">Engenharia</h4>
-                            <p class="text-[10px] text-details1/60 font-bold uppercase tracking-widest">Precisão de
-                                Milímetros</p>
-                        </div>
+        <!-- 4. SEÇÃO PROBLEMA / DOR -->
+        <section class="py-24 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-16">
+                    <div class="md:w-1/2 relative">
+                        <div class="absolute -inset-4 bg-primary/5 rounded-[3rem] -rotate-3"></div>
+                        <img src="assets/img/hero-escada.webp" alt="Precisão na medição" width="500" height="600" loading="lazy" class="rounded-[2.5rem] shadow-2xl relative z-10 h-96 w-full object-cover">
                     </div>
-                </div>
-                <div class="md:w-1/2">
-                    <div class="bg-accent p-12 rounded-[4rem] text-center shadow-2xl relative overflow-hidden group">
-                        <h3 class="text-3xl font-black mb-8 relative z-10">Agende sua Medição</h3>
-                        <p class="text-details2 mb-12 relative z-10 font-medium">Garanta que sua escada seja o ponto
-                            alto da sua casa, do jeito que você sonhou.</p>
-                        <a href="https://wa.me/5519996370845?text=Olá! Gostaria de agendar uma medição técnica gratuita."
-                            class="cta-button block w-full py-6 rounded-3xl font-black text-xl shadow-xl transition-all hover:scale-[1.02] active:scale-95 relative z-10"
-                            target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
-
-                        <!-- Pulse Effect -->
-                        <div
-                            class="absolute inset-x-0 bottom-0 top-0 bg-primary/20 scale-150 group-hover:scale-0 transition-transform duration-1000">
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl md:text-5xl font-black mb-8 text-primary leading-tight">
+                            Medição Técnica: <span class="text-accent underline decoration-details decoration-4 underline-offset-8">Zero Erros</span> na sua Obra.
+                        </h2>
+                        <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                            Não dependemos apenas de plantas. Nossos especialistas visitam sua construção para validar cada medida, garantindo perfeição absoluta e evitando retrabalho.
+                        </p>
+                        <div class="space-y-6">
+                            <div class="flex items-center gap-4 group">
+                                <div class="w-10 h-10 bg-red-50 text-red-500 rounded-full flex items-center justify-center font-bold text-xl group-hover:scale-110 transition-all">✕</div>
+                                <p class="text-slate-700 font-bold">Chega de escadas tortas ou fora de medida.</p>
+                            </div>
+                            <div class="flex items-center gap-4 group">
+                                <div class="w-10 h-10 bg-red-50 text-red-500 rounded-full flex items-center justify-center font-bold text-xl group-hover:scale-110 transition-all">✕</div>
+                                <p class="text-slate-700 font-bold">Evite desperdício de tempo e material.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Prova Social / Obras -->
-        <section id="social_proof" class="py-32 bg-accent/50">
-            <div class="container text-center">
-                <h2 class="text-4xl font-black mb-16 tracking-tight">Excelência Comprovada</h2>
-                <div class="grid grid-cols-2 md:grid-cols-3 gap-6 opacity-60">
-                    <div
-                        class="aspect-video bg-primary/20 rounded-2xl flex items-center justify-center border border-white/5 text-xs font-bold uppercase tracking-[0.2em] text-details1/50 underline-offset-4 decoration-details1/20">
-                        Obra Campinas #01</div>
-                    <div
-                        class="aspect-video bg-primary/20 rounded-2xl flex items-center justify-center border border-white/5 text-xs font-bold uppercase tracking-[0.2em] text-details1/50">
-                        Obra Campinas #02</div>
-                    <div
-                        class="aspect-video bg-primary/20 rounded-2xl flex items-center justify-center border border-white/5 text-xs font-bold uppercase tracking-[0.2em] text-details1/50">
-                        Obra Região #03</div>
+        <!-- 5. SEÇÃO SERVIÇOS / MODELOS -->
+        <section id="servicos" class="py-24 bg-slate-50">
+            <div class="container mx-auto px-4">
+                <div class="text-center max-w-3xl mx-auto mb-20">
+                    <h2 class="text-4xl md:text-5xl font-black mb-6 text-primary">Projetos em <span class="text-accent">Concreto Premium</span></h2>
+                    <p class="text-lg text-slate-600">Do funcional ao escultural. Definimos o novo padrão em escadas de concreto em Campinas.</p>
                 </div>
-                <div
-                    class="mt-20 inline-flex items-center gap-6 px-10 py-6 bg-primary rounded-full border border-white/10">
-                    <div class="flex items-center -space-x-3">
-                        <div class="w-10 h-10 rounded-full bg-details1 border-2 border-primary"></div>
-                        <div class="w-10 h-10 rounded-full bg-details2 border-2 border-primary"></div>
-                        <div class="w-10 h-10 rounded-full bg-details3 border-2 border-primary"></div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Modelo 1 -->
+                    <div class="bg-white p-6 rounded-[2.5rem] shadow-sm hover:shadow-2xl transition-all duration-500 border border-slate-100 group">
+                        <div class="aspect-square rounded-[2rem] overflow-hidden mb-6">
+                            <img src="assets/img/escada-l.webp" alt="Escada Modelo L" width="400" height="400" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        </div>
+                        <h3 class="text-xl font-black mb-3 px-2">Escada Modelo L</h3>
+                        <p class="text-slate-500 text-sm px-2 mb-6">Elegância clássica otimizada para cantos e espaços residenciais.</p>
+                        <a href="https://wa.me/5519996370845" class="bg-slate-50 group-hover:bg-primary group-hover:text-white transition-all w-full py-4 rounded-2xl flex items-center justify-center font-bold gap-2">Ver Mais →</a>
                     </div>
-                    <p class="text-xs font-black uppercase tracking-widest text-details1">+11 anos de Tradição</p>
+                    <!-- Modelo 2 -->
+                    <div class="bg-white p-6 rounded-[2.5rem] shadow-sm hover:shadow-2xl transition-all duration-500 border border-slate-100 group">
+                        <div class="aspect-square rounded-[2rem] overflow-hidden mb-6">
+                            <img src="assets/img/escada-j.webp" alt="Escada Modelo J" width="400" height="400" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        </div>
+                        <h3 class="text-xl font-black mb-3 px-2">Escada Modelo J</h3>
+                        <p class="text-slate-500 text-sm px-2 mb-6">Design curvo sofisticado para ambientes modernos de alto padrão.</p>
+                        <a href="https://wa.me/5519996370845" class="bg-slate-50 group-hover:bg-primary group-hover:text-white transition-all w-full py-4 rounded-2xl flex items-center justify-center font-bold gap-2">Ver Mais →</a>
+                    </div>
+                    <!-- Modelo 3 -->
+                    <div class="bg-white p-6 rounded-[2.5rem] shadow-sm hover:shadow-2xl transition-all duration-500 border border-slate-100 group">
+                        <div class="aspect-square rounded-[2rem] overflow-hidden mb-6">
+                            <img src="assets/img/escada-viga.webp" alt="Escada de Viga Central" width="400" height="400" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        </div>
+                        <h3 class="text-xl font-black mb-3 px-2">Viga Central</h3>
+                        <p class="text-slate-500 text-sm px-2 mb-6">Leveza e modernidade: o destaque visual que sua obra precisa.</p>
+                        <a href="https://wa.me/5519996370845" class="bg-slate-50 group-hover:bg-primary group-hover:text-white transition-all w-full py-4 rounded-2xl flex items-center justify-center font-bold gap-2">Ver Mais →</a>
+                    </div>
+                    <!-- Modelo 4 -->
+                    <div class="bg-white p-6 rounded-[2.5rem] shadow-sm hover:shadow-2xl transition-all duration-500 border border-slate-100 group">
+                        <div class="aspect-square rounded-[2rem] overflow-hidden mb-6">
+                            <img src="assets/img/escada-caracol.webp" alt="Escada Caracol" width="400" height="400" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700">
+                        </div>
+                        <h3 class="text-xl font-black mb-3 px-2">Escada Caracol</h3>
+                        <p class="text-slate-500 text-sm px-2 mb-6">Conforto e praticidade para conectar níveis com economia de espaço.</p>
+                        <a href="https://wa.me/5519996370845" class="bg-slate-50 group-hover:bg-primary group-hover:text-white transition-all w-full py-4 rounded-2xl flex items-center justify-center font-bold gap-2">Ver Mais →</a>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Localização -->
-        <section id="location" class="py-24 bg-primary text-center">
-            <div class="container">
-                <div class="max-w-xl mx-auto">
-                    <span class="text-4xl mb-8 block">📍</span>
-                    <h2 class="text-4xl font-black mb-6 tracking-tight">Atuação em Toda Região</h2>
-                    <p class="text-lg text-details1 font-medium leading-relaxed">Sediados em Campinas (Vila Aeroporto),
-                        atendemos num raio de até 200km para garantir a qualidade que sua obra merece.</p>
+        <!-- 6. BENEFÍCIOS (Por que nós?) -->
+        <section class="py-24 bg-primary text-white relative overflow-hidden">
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="flex flex-col lg:flex-row items-center gap-16">
+                    <div class="lg:w-1/2">
+                        <h2 class="text-4xl md:text-5xl font-black mb-10 leading-tight">Por que somos a melhor escolha em <span class="text-details italic">Campinas</span>?</h2>
+                        <div class="space-y-10">
+                            <div class="flex gap-6 group">
+                                <div class="w-14 h-14 bg-white/10 text-details rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-details group-hover:text-primary transition-all font-bold text-2xl">✓</div>
+                                <div>
+                                    <h4 class="text-xl font-extrabold mb-3 uppercase tracking-tighter">Engenharia de Precisão</h4>
+                                    <p class="text-slate-300 leading-relaxed font-medium opacity-80">Cálculos estruturais exatos para garantir que sua escada dure gerações sem trincas ou barulhos.</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-6 group">
+                                <div class="w-14 h-14 bg-white/10 text-details rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-details group-hover:text-primary transition-all font-bold text-2xl">✓</div>
+                                <div>
+                                    <h4 class="text-xl font-extrabold mb-3 uppercase tracking-tighter">Instalação Ágil</h4>
+                                    <p class="text-slate-300 leading-relaxed font-medium opacity-80">Montagem rápida e limpa em sua obra, reduzindo o tempo de espera para o uso.</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-6 group">
+                                <div class="w-14 h-14 bg-white/10 text-details rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-details group-hover:text-primary transition-all font-bold text-2xl">✓</div>
+                                <div>
+                                    <h4 class="text-xl font-extrabold mb-3 uppercase tracking-tighter">Atendimento Humanizado</h4>
+                                    <p class="text-slate-300 leading-relaxed font-medium opacity-80">Do primeiro contato à entrega, você fala diretamente com quem entende da sua obra.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2 relative">
+                        <div class="absolute -inset-10 bg-accent/20 rounded-full blur-3xl"></div>
+                        <img src="assets/img/hero-escada.webp" alt="Qualidade Oliveira Escadas" width="600" height="600" loading="lazy" class="rounded-[4rem] border-8 border-white/5 shadow-2xl relative z-10 w-full object-cover h-[500px]">
+                    </div>
                 </div>
             </div>
+            
+            <!-- Abstract Shapes -->
+            <div class="absolute top-0 right-0 w-64 h-64 bg-accent/30 rounded-full -translate-y-1/2 translate-x-1/2 blur-[120px]"></div>
+        </section>
+
+        <!-- 7. QUEM SOMOS / AUTORIDADE -->
+        <section class="py-24 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto flex flex-col md:flex-row-reverse items-center gap-20">
+                    <div class="md:w-1/2">
+                         <div class="relative">
+                            <div class="absolute -right-6 -bottom-6 w-full h-full bg-slate-100 rounded-[3rem]"></div>
+                            <img src="assets/img/hero-escada.webp" alt="Oliveira Escadas Campinas" width="500" height="600" loading="lazy" class="rounded-[3rem] shadow-xl relative z-10 w-full h-[450px] object-cover grayscale">
+                         </div>
+                    </div>
+                    <div class="md:w-1/2">
+                        <span class="text-accent font-black uppercase tracking-[0.3em] text-xs mb-4 block">Desde 2013</span>
+                        <h2 class="text-4xl font-black mb-8 text-primary leading-tight">Oliveira Escadas: <br>Tradição e Segurança</h2>
+                        <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                            Sediados em Campinas, somos uma empresa familiar que se tornou referência no mercado de escadas pré-moldadas. Nossa jornada lateral começou com o compromisso de entregar não apenas um produto, mas a base segura para os sonhos de nossos clientes.
+                        </p>
+                        <div class="p-8 bg-slate-50 border-l-4 border-accent rounded-r-3xl italic text-slate-700 font-medium">
+                            "Combinamos engenharia de concreto com design arquitetônico para criar escadas que são verdadeiras esculturas dentro de casa."
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. PROVA SOCIAL 2 (Depoimentos) -->
+        <section class="py-24 bg-slate-900 text-white overflow-hidden">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-black mb-4">Experiência Real dos Clientes</h2>
+                    <p class="text-slate-400">Confira por que somos recomendados em toda a região.</p>
+                </div>
+                <!-- Scrolling testimonies placeholder behavior -->
+                <div class="flex flex-col md:flex-row gap-8">
+                    <!-- Depoimento 1 -->
+                    <div class="flex-1 p-10 bg-white/5 rounded-[2.5rem] border border-white/10 backdrop-blur-xl">
+                        <div class="flex gap-1 text-details mb-6">★★★★★</div>
+                        <p class="text-slate-200 text-lg font-medium leading-relaxed mb-8">"Fiquei impressionada com a precisão. A escada encaixou perfeitamente e o acabamento ficou excelente. O agendamento da visita foi muito rápido."</p>
+                        <div class="flex items-center gap-4">
+                            <div class="w-14 h-14 bg-gradient-to-br from-details to-accent rounded-2xl"></div>
+                            <div>
+                                <p class="font-black text-xl leading-none mb-2 underline decoration-details/30">Mariana Santos</p>
+                                <p class="text-xs font-bold text-slate-500 uppercase tracking-widest leading-none">Cliente em Paulínia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Depoimento 2 -->
+                    <div class="flex-1 p-10 bg-white/5 rounded-[2.5rem] border border-white/10 backdrop-blur-xl">
+                        <div class="flex gap-1 text-details mb-6">★★★★★</div>
+                        <p class="text-slate-200 text-lg font-medium leading-relaxed mb-8">"Melhor custo-benefício que encontrei. Atendimento muito transparente e o material do concreto é de primeira. Recomendo para quem está construindo."</p>
+                        <div class="flex items-center gap-4">
+                            <div class="w-14 h-14 bg-gradient-to-br from-details to-accent rounded-2xl"></div>
+                            <div>
+                                <p class="font-black text-xl leading-none mb-2 underline decoration-details/30">Ricardo Alves</p>
+                                <p class="text-xs font-bold text-slate-500 uppercase tracking-widest leading-none">Obra em Campinas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. FAQ -->
+        <section class="py-24 bg-white">
+            <div class="container mx-auto px-4 max-w-4xl">
+                <div class="text-center mb-16 underline decoration-primary/10 decoration-8 underline-offset-4">
+                    <h2 class="text-4xl font-black text-primary">Dúvidas Frequentes</h2>
+                </div>
+                <div class="space-y-4">
+                    <details class="group bg-slate-50 rounded-3xl p-8 border border-slate-100 open:bg-primary transition-all duration-500 cursor-pointer">
+                        <summary class="font-black text-xl flex justify-between items-center list-none text-primary group-open:text-white">
+                            A visita para medição é realmente gratuita?
+                            <span class="text-accent group-open:text-details group-open:rotate-180 transition-all text-2xl">↓</span>
+                        </summary>
+                        <p class="mt-6 text-slate-600 group-open:text-slate-200 text-lg font-medium leading-relaxed">Sim! Nossa visita em Campinas e região para medição técnica e validação do local não tem custo algum e não gera obrigatoriedade de compra.</p>
+                    </details>
+                    <details class="group bg-slate-50 rounded-3xl p-8 border border-slate-100 open:bg-primary transition-all duration-500 cursor-pointer">
+                        <summary class="font-black text-xl flex justify-between items-center list-none text-primary group-open:text-white">
+                            Quanto tempo leva para instalar a escada?
+                            <span class="text-accent group-open:text-details group-open:rotate-180 transition-all text-2xl">↓</span>
+                        </summary>
+                        <p class="mt-6 text-slate-600 group-open:text-slate-200 text-lg font-medium leading-relaxed">A instalação de uma escada pré-moldada padrão geralmente leva entre 1 a 2 dias úteis, dependendo da complexidade do projeto.</p>
+                    </details>
+                    <details class="group bg-slate-50 rounded-3xl p-8 border border-slate-100 open:bg-primary transition-all duration-500 cursor-pointer">
+                        <summary class="font-black text-xl flex justify-between items-center list-none text-primary group-open:text-white">
+                            Quais áreas vocês atendem?
+                            <span class="text-accent group-open:text-details group-open:rotate-180 transition-all text-2xl">↓</span>
+                        </summary>
+                        <p class="mt-6 text-slate-600 group-open:text-slate-200 text-lg font-medium leading-relaxed">Atendemos toda a cidade de Campinas e cidades vizinhas (Sumaré, Hortolândia, Paulínia, Valinhos, Vinhedo, Indaiatuba, etc) num raio de até 200km.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. LOCALIZAÇÃO E CONTATO FINAL -->
+        <section class="py-24 bg-primary text-white relative overflow-hidden">
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="grid lg:grid-cols-2 gap-16 items-center">
+                    <div>
+                        <h2 class="text-4xl md:text-5xl font-black mb-10 leading-tight">Visite Nossa Sede em <span class="text-details italic">Campinas</span></h2>
+                        <div class="space-y-10">
+                            <div class="flex gap-6 items-start">
+                                <div class="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center text-3xl shrink-0 border border-white/5">📍</div>
+                                <div>
+                                    <p class="font-black text-xl mb-1 uppercase tracking-tighter">Endereço:</p>
+                                    <p class="text-slate-300 text-lg font-medium opacity-80">Rua Itambé, 78 - Vila Aeroporto, Campinas/SP</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-6 items-start">
+                                <div class="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center text-3xl shrink-0 border border-white/5">⏰</div>
+                                <div>
+                                    <p class="font-black text-xl mb-1 uppercase tracking-tighter">Funcionamento:</p>
+                                    <p class="text-slate-300 text-lg font-medium opacity-80">Segunda a Sexta das 08h às 18h | Sábados das 08h às 12h</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-14">
+                            <a href="https://wa.me/5519996370845?text=Ol%C3%A1%2C%20queria%20tirar%20uma%20d%C3%BAvida%20sobre%20as%20escadas." class="bg-green-600 hover:bg-green-700 w-full md:w-auto text-white px-12 py-6 rounded-3xl text-2xl font-black transition-all flex items-center justify-center gap-4 shadow-2xl">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.539 1.963 2.023-.53c.939.511 2.01.785 3.264.786 3.182 0 5.767-2.587 5.768-5.766 0-3.18-2.586-5.766-5.767-5.766zm3.333 8.017c-.145.41-.741.76-1.02.833-.289.074-.537.103-1.52-.301-1.21-.498-1.956-1.748-2.015-1.826-.06-.078-.492-.656-.492-1.26 0-.603.315-.9.43-.1.115-.124.25-.155.333-.155.083 0 .165 0 .237.005.075.003.175-.028.273.21.099.239.34.828.37 0 .03.072.053.155.053.237-.083.082-.15.116-.233.201-.083.085-.17.175-.073.342.097.167.433.714.935 1.162.646.577 1.188.756 1.355.839.166.083.264.07.362-.041.097-.111.414-.482.525-.647.111-.165.221-.138.371-.083.15.055.951.448 1.116.53.165.083.275.124.316.196.041.073.041.424-.104.834zM12 2C6.477 2 2 6.477 2 12c0 1.83.493 3.545 1.353 5.01L2 22l5.085-1.335A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+                                Falar com Especialista
+                            </a>
+                        </div>
+                    </div>
+                    <div class="h-[500px] w-full bg-slate-800 rounded-[3rem] overflow-hidden border-8 border-slate-800 shadow-2xl relative">
+                        <!-- Substituir pelo Iframe do Maps do cliente -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.398517228308!2d-47.131878923769!3d-22.951000079222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b63e8b4e4df9%3A0x63346473bc4f1da3!2sR.%20Itamb%C3%A9%2C%2078%20-%20Vila%20Aeroporto%2C%20Campinas%20-%20SP%2C%2013054-150!5e0!3m2!1spt-BR!2sbr!4v1711297000000!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-accent/20 rounded-full translate-y-1/2 -translate-x-1/2 blur-[100px]"></div>
         </section>
     </main>
 
-    <footer id="footer" class="bg-primary pt-32 pb-16 border-t border-white/5">
-        <div class="container">
-            <div class="grid lg:grid-cols-2 gap-24 mb-24">
-                <div>
-                    <div class="flex flex-col mb-10">
-                        <span class="text-4xl font-black tracking-tighter uppercase leading-none">Oliveira</span>
-                        <span
-                            class="text-xs font-bold tracking-[0.5em] uppercase text-details2 ml-1 mt-2">Escadas</span>
-                    </div>
-                    <p class="text-details1/60 font-medium leading-[2] max-w-sm mb-12">Desde 2013 construindo escadas
-                        que unem segurança, engenharia e design de alto padrão.</p>
-                    <div class="flex gap-6">
-                        <a href="https://instagram.com/oliveiraescadas"
-                            class="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center hover:bg-white/10 transition-colors"
-                            target="_blank" rel="noopener noreferrer">📸</a>
-                        <a href="https://facebook.com/oliveiraescadas"
-                            class="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center hover:bg-white/10 transition-colors"
-                            target="_blank" rel="noopener noreferrer">👤</a>
-                    </div>
-                </div>
-                <div class="grid grid-cols-2 gap-12 text-sm">
-                    <div>
-                        <h4 class="font-black uppercase tracking-widest mb-10 text-white">Contato</h4>
-                        <ul class="space-y-6 text-details1/60 font-bold uppercase tracking-widest text-[11px]">
-                            <li>(19) 99637-0845</li>
-                            <li>Campinas - SP</li>
-                            <li>Vila Aeroporto</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="font-black uppercase tracking-widest mb-10 text-white">Horário</h4>
-                        <ul class="space-y-6 text-details1/60 font-bold uppercase tracking-widest text-[11px]">
-                            <li>Seg a Sex: 08h - 18h</li>
-                            <li>Sábado: 08h - 12h</li>
-                            <li>Domingo: Fechado</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="flex flex-col md:flex-row justify-between items-center pt-16 border-t border-white/5 gap-8">
-                <p class="text-[10px] font-black uppercase tracking-[0.3em] text-details1/30">&copy; 2026 Oliveira
-                    Escadas. Todos os direitos reservados.</p>
-                <div class="flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.3em] text-details1/30">
-                    <span>Performance por</span>
-                    <span class="text-details2/50">Concept Marketing Digital</span>
-                </div>
-            </div>
+    <!-- 11. FOOTER -->
+    <footer class="bg-black text-white/40 py-16 text-center text-sm border-t border-white/5">
+        <div class="container mx-auto px-4">
+            <img src="assets/img/logo_oliveira_escadas.png" alt="Oliveira Escadas logo" width="120" height="40" class="h-10 mx-auto mb-10 opacity-30 brightness-0 invert">
+            <p class="mb-4 font-bold uppercase tracking-[0.2em] text-[10px]">&copy; 2026 Oliveira Escadas. Todos os direitos reservados.</p>
+            <p class="flex items-center justify-center gap-2">Orgulhosamente desenvolvido por <a href="https://conceptmarketingdigital.com.br" target="_blank" rel="noopener noreferrer" class="text-details hover:text-white transition-colors font-black">Concept Marketing Digital</a></p>
         </div>
     </footer>
 
-    <!-- Cookie Banner -->
-    <div id="cookie-banner"
-        class="fixed bottom-0 inset-x-0 bg-white border-t border-gray-200 p-4 transform translate-y-full transition-transform duration-500 z-[60]">
-        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-gray-900">
-            <p class="text-sm text-gray-600 text-center md:text-left">
-                Utilizamos cookies para melhorar sua experiência. Ao continuar, você concorda com nossa política de
-                privacidade.
-            </p>
-            <button id="accept-cookies"
-                class="bg-primary text-white px-8 py-2 rounded-full font-bold text-sm hover:opacity-90 transition">
-                Aceitar
+    <!-- 12. WHATSAPP FLOATING -->
+    <a href="https://wa.me/5519996370845?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20visita."
+        class="fixed bottom-8 right-8 bg-[#25D366] text-white p-5 rounded-[2rem] shadow-2xl hover:bg-[#20bd5c] transition-all z-50 flex items-center justify-center pulse-animation"
+        target="_blank" rel="noopener noreferrer" aria-label="Conversar no WhatsApp">
+        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.539 1.963 2.023-.53c.939.511 2.01.785 3.264.786 3.182 0 5.767-2.587 5.768-5.766 0-3.18-2.586-5.766-5.767-5.766zm3.333 8.017c-.145.41-.741.76-1.02.833-.289.074-.537.103-1.52-.301-1.21-.498-1.956-1.748-2.015-1.826-.06-.078-.492-.656-.492-1.26 0-.603.315-.9.43-.1.115-.124.25-.155.333-.155.083 0 .165 0 .237.005.075.003.175-.028.273.21.099.239.34.828.37 0 .03.072.053.155.053.237-.083.082-.15.116-.233.201-.083.085-.17.175-.073.342.097.167.433.714.935 1.162.646.577 1.188.756 1.355.839.166.083.264.07.362-.041.097-.111.414-.482.525-.647.111-.165.221-.138.371-.083.15.055.951.448 1.116.53.165.083.275.124.316.196.041.073.041.424-.104.834zM12 2C6.477 2 2 6.477 2 12c0 1.83.493 3.545 1.353 5.01L2 22l5.085-1.335A9.957 9.957 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+    </a>
+
+    <!-- COOKIE BANNER -->
+    <div id="cookie-banner" class="fixed bottom-0 inset-x-0 bg-white/95 backdrop-blur-xl border-t border-slate-200 p-8 transform translate-y-full transition-transform duration-1000 z-[100] shadow-2xl">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
+            <div class="flex items-center gap-6">
+                <span class="text-4xl">🏗️</span>
+                <p class="text-sm text-slate-600 max-w-2xl font-medium">
+                    Construímos sua experiência com segurança. Utilizamos cookies para analisar o tráfego e melhorar sua navegação em nosso site.
+                </p>
+            </div>
+            <button id="accept-cookies" class="bg-primary text-white px-14 py-4 rounded-2xl font-black text-sm hover:opacity-90 transition-all shadow-xl shadow-primary/20 whitespace-nowrap active:scale-95 uppercase tracking-widest">
+                Aceitar e Continuar
             </button>
         </div>
     </div>

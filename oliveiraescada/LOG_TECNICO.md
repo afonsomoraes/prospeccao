@@ -19,3 +19,13 @@
 ### Decisões Técnicas Iniciais
 - **Tailwind**: Configuração via `tailwind.config` no script do CDN para manter fidelidade aos tokens.
 - **Imagens**: Gerar placeholders específicos para Escada L, J, Viga Central e Caracol.
+
+## [2026-03-24] - Atualização de Estrutura e Identidade Visual
+
+### Evolução de Conversão (Metodologia Matheus Palma)
+1. **Nova Arquitetura**: Implementação da estrutura mandatória definida em `regra-estrutura-lp.md`.
+2. **Identidade Visual**: Integração do logo oficial `logo_oliveira_escadas.png` no Header, Footer e Favicon.
+3. **Seção FAQ**: Adicionada seção de quebra de objeções (visita técnica, prazo, área de atuação).
+4. **Social Proof**: Expansão do destaque para os 11 anos de experiência e +5k obras.
+5. **SEO & UX**: Otimização de tags semânticas e LCP (fetchpriority na hero).
+6. **Design**: Layout renovado com Glassmorphism e interação mobile-first aprimorada.
